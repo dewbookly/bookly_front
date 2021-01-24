@@ -8,10 +8,10 @@ function App() {
     <div className="background">
       <p className="Title">Bookly</p>
       <div className = "searchBox">
-
+        <p className="searchTitle">책 이름으로 검색하세요</p>
+        <input className="searchBar"></input><i style={{marginLeft:'-25px'}} class="fas fa-search"></i>
       </div>
-    
-      {/* <img src={bookimg} style={{height:'100vh', width:'100%', overflow:'hidden'}}/> */}
+
     </div>
   );
 }
